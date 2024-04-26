@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Speech
 
 struct ContentView: View {
     var body: some View {
@@ -13,7 +14,9 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("iTinker v0.1")
+            
+            
         }
         .padding()
     }
